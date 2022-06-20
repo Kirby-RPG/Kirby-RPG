@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_col",
-    "path": "sprites/spr_col/spr_col.yy",
+    "name": "spr_kirby",
+    "path": "sprites/spr_kirby/spr_kirby.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "spr_col",
-    "path": "sprites/spr_col/spr_col.yy",
+    "name": "spr_kirby",
+    "path": "sprites/spr_kirby/spr_kirby.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -24,15 +24,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Overworld",
+    "path": "folders/Objects/Overworld.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_col",
+  "name": "obj_ow_kirby",
   "tags": [],
   "resourceType": "GMObject",
 }

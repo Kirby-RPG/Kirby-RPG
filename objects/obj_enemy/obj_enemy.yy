@@ -1,19 +1,18 @@
 {
-  "name": "obj_kirby",
   "spriteId": {
-    "name": "spr_kirby",
-    "path": "sprites/spr_kirby/spr_kirby.yy",
+    "name": "pengi",
+    "path": "sprites/pengi/pengi.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_kirby",
-    "path": "sprites/spr_kirby/spr_kirby.yy",
-  },
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
-  "parentObjectId": null,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_unit",
+    "path": "objects/obj_unit/obj_unit.yy",
+  },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -27,15 +26,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Battle",
+    "path": "folders/Objects/Battle.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_enemy",
   "tags": [],
   "resourceType": "GMObject",
 }

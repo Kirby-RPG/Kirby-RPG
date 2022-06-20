@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "spr_col",
-    "path": "sprites/spr_col/spr_col.yy",
+    "name": "pengi",
+    "path": "sprites/pengi/pengi.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_col",
-    "path": "sprites/spr_col/spr_col.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,15 +21,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ow_kirby","path":"objects/obj_ow_kirby/obj_ow_kirby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Battle",
+    "path": "folders/Objects/Battle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_col",
+  "name": "obj_battle",
   "tags": [],
   "resourceType": "GMObject",
 }

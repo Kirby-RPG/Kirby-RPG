@@ -1,5 +1,4 @@
 {
-  "name": "TileSet2",
   "spriteId": {
     "name": "spr_grass",
     "path": "sprites/spr_grass/spr_grass.yy",
@@ -10,13 +9,13 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
   "out_columns": 5,
   "tile_count": 30,
   "autoTileSets": [],
@@ -67,6 +66,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet2",
   "tags": [],
   "resourceType": "GMTileSet",
 }

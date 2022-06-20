@@ -1,0 +1,1 @@
+// Use array to determine which enemies are in the encounter.
